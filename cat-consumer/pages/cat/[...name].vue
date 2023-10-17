@@ -1,6 +1,7 @@
 <template>
   <div>
-    {{ cat }}
+    <img :src="cat.image" />
+    <h2>{{ cat.name }}</h2>
   </div>
 </template>
 

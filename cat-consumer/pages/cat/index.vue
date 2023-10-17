@@ -1,6 +1,11 @@
 <template>
   <div>
-    {{ cats }}
+    <ul>
+      <li v-for="cat in cats" :key="cat.id">
+        <img :src="cat.image" />
+        <h2>{{ cat.name }}</h2>
+      </li>
+    </ul>
   </div>
 </template>
 
