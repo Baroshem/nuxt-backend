@@ -2,4 +2,10 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/supabase'],
+
+  routeRules: {
+    '/**' : {
+      cors: false
+    }
+  }
 })
