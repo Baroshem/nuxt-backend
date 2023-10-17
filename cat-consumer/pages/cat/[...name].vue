@@ -8,7 +8,8 @@
 const route = useRoute();
 const cat = ref();
 onMounted(async () => {
-  const res = await $fetch("http://localhost:3000/api/cat", {
+  // https://nuxt-backend.vercel.app/
+  const res = await $fetch("http://localhost:3001/api/cat", {
     method: "GET",
     params: {
       name: route.params.name[0],
