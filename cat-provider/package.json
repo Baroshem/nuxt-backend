@@ -13,6 +13,7 @@
     "@nuxt/devtools": "latest",
     "@nuxtjs/supabase": "^1.1.3",
     "nuxt": "^3.7.4",
+    "nuxt-security": "^0.14.4",
     "vue": "^3.3.4",
     "vue-router": "^4.2.5"
   }
