@@ -1,7 +1,7 @@
 <template>
   <div>
-    <img :src="cat.image" />
-    <h2>{{ cat.name }}</h2>
+    <img :src="cat?.image" />
+    <h2>{{ cat?.name }}</h2>
   </div>
 </template>
 
